@@ -1,0 +1,157 @@
+/** {
+  border: 1px solid white;
+}*/
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+h2, h4, h5 {
+  padding: 10px 0;
+}
+
+header {
+  width: 100%;
+  background-color: inherit;
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav span {
+  padding: 10px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: seashell;
+}
+
+footer {
+  height: 200px;
+}
+
+.content {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: auto;
+}
+
+.content-text {
+  background-color: black;
+  width: 100%;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo img{
+    height: 50px;
+    padding-left: 10px;
+}
+
+#mission {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../images/img-mission-background.jpg);
+  background-position: center;
+}
+
+#featured {
+  display: flex;
+  justify-content: center;
+}
+
+.featured-content {
+  width: 1000px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.features img {
+  height: 200px;
+  width: 300px;
+  padding: 10px 10px 0 10px;
+}
+
+.features h4 {
+  padding: 10px;
+  margin: 0;
+}
+
+#locations {
+  min-height: 500px;
+  margin-top: 70px;
+  padding: 0 40px 70px 40px;
+  background-image: url(../images/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.places {
+  display: flex;
+}
+
+.place {
+  height: 250px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 20px 0 20px;
+}
+
+footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  height: 200px;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  margin-top: 0px;
+}
